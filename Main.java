@@ -23,7 +23,7 @@ class Main {
         {
           case 1: 
             System.out.println("Enter student's name:");
-            String name = scanner.next();
+            String name =  scanner.next();
             System.out.println("Enter student's age:");
             int age = scanner.nextInt();
             System.out.println("Enter student's last name:");
