@@ -30,7 +30,9 @@ class Main {
             String lastname = scanner.next();
             System.out.println("Enter student's address:");
             String address = scanner.next();
-            s.addStudent(new Student (name,lastname,address,age));
+            System.out.println("Enter student's date of birth:");
+            String date = scanner.next();
+            s.addStudent(new Student (name,lastname,address,age,date));
             break;
 
           case 2:
